@@ -1,0 +1,32 @@
+name: my_new_project
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/bg.jpg
+    - assets/gb_flag.png
+    - assets/logo.png
+    - assets/green_check.png
+    - assets/red_close.png
+    - assets/download_icon.png
+    - assets/download_icon1.png
+    - assets/flag_ni.png
+    - assets/bhomeLogo.png
